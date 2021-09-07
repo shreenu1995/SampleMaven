@@ -8,6 +8,10 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>mvn-hello-world Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	<properties>
+            <sonar.organization>shreenu1995</sonar.organization>
+            <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        </properties>
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
